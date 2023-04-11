@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/GlobalCuisine/clientlibs"/>
+    <filter root="/apps/GlobalCuisine/components"/>
+    <filter root="/apps/GlobalCuisine/i18n"/>
+</workspaceFilter>

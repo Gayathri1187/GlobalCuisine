@@ -1,0 +1,12 @@
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html"
+     data-sly-call="${clientlib.css @ categories='globalCuisine.base'}"/>
+
+         <!-- embeded custom header and footer clientlibs to globalCuisine.base -->
+
+<!--/* Include Context Hub */-->
+<sly data-sly-resource="${'contexthub' @ resourceType='granite/contexthub/components/contexthub'}"/>
+
+
+
+<sly data-sly-resource="${@path='/content/experience-fragments/globalCuisine/us/en/site/header/master',
+   selectors='content' , wcmmode='disabled'}"></sly>

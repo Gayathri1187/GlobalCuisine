@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content
+        cq:conf="/conf/globalCuisine"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="globalCuisine">
+        <folderThumbnail/>
+    </jcr:content>
+    <asset.jpg/>
+    <icons8-twitter.svg/>
+    <icons8-facebook.svg/>
+    <icons8-instagram.svg/>
+    <AdobeStock_214592847-816x520.jpeg/>
+    <delicious-768x512.jpg/>
+</jcr:root>

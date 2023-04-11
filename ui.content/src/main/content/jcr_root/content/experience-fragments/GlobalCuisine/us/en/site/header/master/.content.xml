@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-04-06T12:24:50.516+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[]"
+        cq:template="/conf/globalCuisine/settings/wcm/templates/xf-web-variation"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Header"
+        sling:resourceType="globalCuisine/components/xfpage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="globalCuisine/components/container"
+            layout="simple">
+            <logo/>
+            <header
+                jcr:created="{Date}2023-04-06T11:42:56.606+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-04-06T12:24:50.511+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="globalCuisine/structure/header"
+                text="&lt;p>Global Cusine&lt;/p>&#xd;&#xa;"
+                textIsRich="true">
+                <pagedetails jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        pagename="Menu"
+                        pagepath="/content/globalCuisine/language-masters/en/menu"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        pagename="Specials"
+                        pagepath="/content/globalCuisine/language-masters/en/specials"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        pagename="Menu of the Day"
+                        pagepath="/content/globalCuisine/language-masters/en/day-menu"/>
+                    <item3
+                        jcr:primaryType="nt:unstructured"
+                        pagename="Locations"
+                        pagepath="/content/globalCuisine/language-masters/en/locations"/>
+                </pagedetails>
+            </header>
+        </root>
+    </jcr:content>
+</jcr:root>
